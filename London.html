@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {
+    background-color:#002080;
+    color:white;
+    text-align:center;
+    padding:30px;     
+}
+nav {
+    line-height:30px;
+    background-color:#4d79ff
+;
+    height:300px;
+    width:100px;
+    float: left;
+    padding:5px;          
+}
+section {
+    color:#0040ff;
+    width:350px;
+    float:left;
+    padding:10px;        
+}
+h2{color:#0039e6}
+h1{color:#FFFFFF}
+footer {
+    background-color:#002080;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;         
+}
+img{padding:25px}
+p{color: }
+</style>
+</head>
+<body>
+<header>
+<h1>City Gallery</h>
+</header>
+
+<nav>
+<a href="London.html">
+London<br></a>
+<a href="sf.html">
+San Francisco<br></a>
+<a href="Madrid.html">
+Madrid</a>
+</nav>
+<section>
+<h2>London</h2>
+<p>London is the capital city of England. It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.</p>
+<p>London accounts for 12.5% of the UK population. Some landmarks are Big Ben, Buckingham Palace, And the Tower of London</p>
+</section>
+<aside><img src="http://www.kayture.com/wp-content/uploads/2015/08/london22.jpg" width="500" height="250"></aside>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:250px;width:250px;'><div id='gmap_canvas' style='height:250px;width:250px;'></div><div><small><a href="http://embedgooglemaps.com">                                   embed google map                            </a></small></div><div><small><a href="http://freedirectorysubmissionsites.com">directory submission sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(51.5073509,-0.12775829999998223),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.5073509,-0.12775829999998223)});infowindow = new google.maps.InfoWindow({content:'<strong>London</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script><footer>
+&copy;
+</footer>
+
+</body>
+</html>
